@@ -1,0 +1,74 @@
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 10px 2rem;
+  border: 1px solid;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "Means Web", Georgia,Times, "Times New Roman", serif;
+	background-color: black;
+	color: white;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
+#info {
+	margin-bottom: 5px;
+}
+.inputbox {
+	width: 500px;
+	height: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 0px 20px;
+}
+.birthday {
+	margin-bottom: 10px;
+}
+
+.checkbox, .race, .radio{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+}
+option {
+	color: #999;
+}
+.buffer {
+	height: 2rem;
+}
+.buttons {
+	margin: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: white;
+}
+.btn-1 {
+	padding: 10px 50px;
+	background-color: #007c89;
+	border: 1px solid #007c89;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.btn-1:hover {
+	background-color: #122c2f;
+	border-radius: 20px;
+	color: white;
+}
+.btn-2 {
+	padding: 10px 50px;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 50px;
+	margin-left: 20px;
+}
+.btn-2:hover {
+	background-color: #731f1f;
+	border-radius: 20px;
+	color: white;
+}
